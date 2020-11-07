@@ -1,0 +1,427 @@
+<!DOCTYPE html><html lang="ko"><head><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css"/><link rel="shortcut icon" href="/favicon.ico"/><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, minimum-scale=1, maximum-scale=2, minimal-ui"/><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:100%/1.625 -apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.8);font-family:-apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:normal;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}h1{margin-left:0;margin-right:0;margin-top:2.4375rem;padding-bottom:calc(0.40625rem - 1px);padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.21875rem;color:inherit;font-family:-apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:600;text-rendering:optimizeLegibility;font-size:2rem;line-height:1.1;border-bottom:1px solid hsla(0,0%,0%,0.07);}h2{margin-left:0;margin-right:0;margin-top:1.625rem;padding-bottom:calc(0.40625rem - 1px);padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.40625rem;color:inherit;font-family:-apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:600;text-rendering:optimizeLegibility;font-size:1.51572rem;line-height:1.1;border-bottom:1px solid hsla(0,0%,0%,0.07);}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;color:inherit;font-family:-apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:600;text-rendering:optimizeLegibility;font-size:1.31951rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;color:inherit;font-family:-apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:600;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;color:inherit;font-family:-apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:600;text-rendering:optimizeLegibility;font-size:0.87055rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;color:hsla(0,0%,0%,0.53);font-family:-apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:600;text-rendering:optimizeLegibility;font-size:0.81225rem;line-height:1.1;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}ul{margin-left:1.625rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;list-style-position:outside;list-style-image:none;}ol{margin-left:1.625rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;font-size:0.85rem;line-height:1.625rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;font-size:1rem;line-height:1.625rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}blockquote{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:calc(0.8125rem - 1px);padding-right:0;padding-top:0;margin-bottom:0.8125rem;border-left:4px solid hsla(0,0%,0%,0.13);color:hsla(0,0%,0%,0.53);}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(0.8125rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}b{font-weight:600;}strong{font-weight:600;}dt{font-weight:600;}th{font-weight:600;}li{margin-bottom:calc(0.8125rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.625rem;margin-bottom:calc(0.8125rem / 2);margin-top:calc(0.8125rem / 2);}li > ul{margin-left:1.625rem;margin-bottom:calc(0.8125rem / 2);margin-top:calc(0.8125rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(0.8125rem / 2);}code{font-size:0.85rem;line-height:1.625rem;}kbd{font-size:0.85rem;line-height:1.625rem;}samp{font-size:0.85rem;line-height:1.625rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:1.08333rem;padding-right:1.08333rem;padding-top:0.8125rem;padding-bottom:calc(0.8125rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}h3,h4,h5,h6{margin-bottom:0.8125rem;margin-top:1.625rem;}ol,ul{margin-left:2.03125rem;}li>ol,li>ul{margin-left:2.03125rem;}a{color:#4078c0;text-decoration:none;}a:hover,a:active{text-decoration:underline;}</style><style data-href="/styles.7afa3b603a49db8548ba.css">code[class*=language-],pre[class*=language-]{color:#f8f8f2;background:#282a36;text-shadow:none;font-size:16px;font-family:PT Mono,Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;line-height:24px;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}code[class*=language-]::selection,code[class*=language-] ::selection,pre[class*=language-]::selection,pre[class*=language-] ::selection{text-shadow:none;background-color:#bd93f9}pre[class*=language-]{overflow:auto;background:#282a36}:not(pre)>code[class*=language-]{padding:2px 5px;background:#282a36;white-space:normal}.namespace{opacity:.7}.token{color:#ff79c6}.token.plain-text{color:#f8f8f2}.token.cdata,.token.comment,.token.doctype{color:#6272a4}.token.boolean,.token.constant,.token.null,.token.number{color:#bd93f9}.token.entity,.token.operator,.token.prolog,.token.selector{color:#8be9fd}.token.attr-value,.token.function,.token.punctuation,.token.string,.token.tag,.token.url{color:#f1fa8c}.token.attr-name,.token.placeholder .token.atrule,.token.regex,.token.statement,.token.variable{color:#50fa7b}.token.char,.token.control .token.builtin,.token.deleted,.token.directive .token.namespace,.token.important,.token.keyword,.token.tag{color:#ff79c6}.token.class-name,.token.interpolation-punctuation,.token.property,.token.symbol,.token.unit{color:#ffb86c}.token.bold,.token.important{font-weight:700}.token.italic,.token.plain-text{font-style:italic}.token.entity{cursor:help}.language-css .token.function,.language-css .token.url{color:#50fa7b}.language-c .token.string,.language-cpp .token.string,.language-java .token.class-name,.language-java span.token.class-name,.language-markup .token.attr-value,.language-objectivec .token.property{color:#8be9fd}.language-objectivec .token.string{color:#50fa7b}.language-php .token.boolean,.language-php .token.keyword{color:#8be9fd}.language-php .token.function{color:#ff79c6}.language-ruby .token.symbol{color:#8be9fd}.language-ruby .token.class-name{color:#ffb86c}pre[class*=language-].line-numbers{position:relative;padding-left:15px;counter-reset:linenumber}pre[class*=language-].line-numbers>code{position:relative;white-space:inherit}.line-numbers .line-numbers-rows{-webkit-user-select:none;-ms-user-select:none;user-select:none;pointer-events:none;position:absolute;top:0;left:0;font-size:16px;letter-spacing:-2px;border-right:1px solid #6272a4}.line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.line-numbers-rows>span:before{content:counter(linenumber);display:block;min-width:40px;color:rgba(248,248,242,.25);text-align:center;line-height:23px;border-bottom:1px solid #6272a4}.line-numbers-rows>span:last-child:before{margin-bottom:1px;border-bottom:none}.gatsby-highlight{overflow:auto;background-color:#282a36}.gatsby-highlight pre[class*=language-]{overflow:initial;float:left;min-width:100%;margin:0;padding:0 0 0 55px;background-color:transparent}.gatsby-highlight-code-line{position:relative;display:block;z-index:1;margin:0 -15px;padding:0 12px;border-left:3px solid #bd93f9;background-color:rgba(189,147,249,.25)}.gatsby-code-button-container{position:relative;z-index:200;display:flex;justify-content:flex-end;top:24px;pointer-events:none}.gatsby-code-button{padding:0 6px;color:#282a36;background-color:#6272a4;font-family:Roboto,Helvetica,Arial,sans-serif;font-size:16px;line-height:24px;cursor:pointer;pointer-events:auto}.gatsby-code-button:after{visibility:hidden;display:none;position:absolute;content:attr(data-tooltip);color:#282a36;background-color:#bd93f9;font-size:12px;white-space:nowrap}.gatsby-code-button[data-tooltip]:after{top:0;right:28px}.gatsby-code-button[data-tooltip]:focus:after,.gatsby-code-button[data-tooltip]:hover:after{visibility:visible;z-index:200;display:block;padding:0 6px;font-weight:100;animation:fadeIn .25s}.gatsby-code-button-icon{position:relative;top:2px;width:16px;height:16px;fill:#282a36}@keyframes fadeIn{0%{opacity:0}to{opacity:1}}.gatsby-code-title{position:relative;z-index:100;margin-bottom:0;font-family:PT Mono,Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;font-style:italic;font-size:18px;font-weight:100;text-align:center;line-height:24px;letter-spacing:-1px;color:rgba(248,248,242,.75);background-color:#1d1f27;border-bottom:1px solid #6272a4}</style><meta name="generator" content="Gatsby 2.25.3"/><link rel="preconnect" href="https://www.google-analytics.com"/><link rel="dns-prefetch" href="https://www.google-analytics.com"/><script>
+  
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'UA-143311992-2', 'auto', {});
+      
+      
+      
+      
+      
+      }</script><title data-react-helmet="true">[Develop] Spring MVC, Maven 환경 설정하기</title><meta data-react-helmet="true" name="description" content="본 포스팅은 WHITEPAEK 님의 글을 참고하여 작성했습니다. Spring 입문자로써 IntelliJ환경에 Spring환경을 설정하고 싶어 이곳 저곳 찾아보게 되었고 whitepaek…"/><meta data-react-helmet="true" itemProp="name" content="[Develop] Spring MVC, Maven 환경 설정하기"/><meta data-react-helmet="true" itemProp="description" content="본 포스팅은 WHITEPAEK 님의 글을 참고하여 작성했습니다. Spring 입문자로써 IntelliJ환경에 Spring환경을 설정하고 싶어 이곳 저곳 찾아보게 되었고 whitepaek…"/><meta data-react-helmet="true" itemProp="image" content="http://demo.nagui.me/static/65d4f18c49f43a2bc316eab364e7c792/46604/develop.png"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" property="og:title" content="[Develop] Spring MVC, Maven 환경 설정하기"/><meta data-react-helmet="true" property="og:description" content="본 포스팅은 WHITEPAEK 님의 글을 참고하여 작성했습니다. Spring 입문자로써 IntelliJ환경에 Spring환경을 설정하고 싶어 이곳 저곳 찾아보게 되었고 whitepaek…"/><meta data-react-helmet="true" property="og:image" content="http://demo.nagui.me/static/65d4f18c49f43a2bc316eab364e7c792/46604/develop.png"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:title" content="[Develop] Spring MVC, Maven 환경 설정하기"/><meta data-react-helmet="true" name="twitter:description" content="본 포스팅은 WHITEPAEK 님의 글을 참고하여 작성했습니다. Spring 입문자로써 IntelliJ환경에 Spring환경을 설정하고 싶어 이곳 저곳 찾아보게 되었고 whitepaek…"/><meta data-react-helmet="true" name="twitter:image" content="http://demo.nagui.me/static/65d4f18c49f43a2bc316eab364e7c792/46604/develop.png"/><meta data-react-helmet="true" name="twitter:creator" content="Mr.Jun"/><meta data-react-helmet="true" name="keywords" content="blog,gatsby,javascript,react,choijunho,Develop, Spring"/><style data-styled="cVpzLH faGyLR cJLnUs lfKGOE gIRgsE cqgvNU ftwSkq jvkqNJ gcrngV giqMKI cfasyk dWXmJX IrVZa grEkRK dOriUP dHbTKQ ccieOg kNAowa gOnmNA bDQndT jYrSCX bborpF fGWTxT gtpeBK fMFMmk epTAkb ldqoJX bVhJdp eXOkWs gqqrKx" data-styled-version="4.4.1">
+/* sc-component-id: circle__StyledCircle-sc-80lot3-0 */
+.cqgvNU{display:inline-block;width:13px;height:13px;border-radius:50%;background-color:inherit;vertical-align:middle;margin:0px 10px;}.ftwSkq{display:inline-block;width:3px;height:3px;border-radius:50%;background-color:inherit;vertical-align:middle;margin:0px 10px;}
+/* sc-component-id: postInfo__Container-par6p5-0 */
+.jYrSCX{font-size:13px;} .jYrSCX span{vertical-align:middle;} .jYrSCX a{color:inherit;vertical-align:middle;} .jYrSCX a:hover{-webkit-text-decoration:underline;text-decoration:underline;} .jYrSCX div{margin:0 10px;}
+/* sc-component-id: tagButton__StyledLink-sc-1r5ids2-0 */
+.fMFMmk{margin:5px 10px 5px 0;}
+/* sc-component-id: tagButton__StyledButton-sc-1r5ids2-1 */
+.epTAkb{padding:5px 10px;border-radius:5px;color:#4d4d4d;background-color:#d9d9d9;font-size:15px;} .epTAkb:hover{-webkit-text-decoration:underline;text-decoration:underline;}
+/* sc-component-id: textEllipsis__StyledText-sc-57ceip-0 */
+.gqqrKx{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;word-wrap:break-word;line-height:24px;height:48px;margin-bottom:5px;color:inherit;}
+/* sc-component-id: recentPostItem__Container-sc-19o8pgz-0 */
+.bVhJdp{padding:0 10px 10px 10px;width:100%;} @media all and (min-width:992px){.bVhJdp{display:inline-block;width:25%;}}
+/* sc-component-id: recentPostItem__Cover-sc-19o8pgz-1 */
+.eXOkWs{display:inline-block;margin:0 !important;width:100%;height:100px;background-image:url(/static/65d4f18c49f43a2bc316eab364e7c792/31987/develop.png);background-size:cover;background-position:50% 50%;border-radius:10px;} .eXOkWs:hover{-webkit-text-decoration:underline #fff;text-decoration:underline #fff;} .eXOkWs div{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:end;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end;height:100%;background-color:rgba(0,0,0,0.6);color:#fff;padding:10px;border-radius:inherit;} .eXOkWs div p{font-weight:bold;} .eXOkWs div span{font-size:12px;} @media all and (min-width:992px){.eXOkWs{height:120px;}}
+/* sc-component-id: recentPostList__PostList-eazhq1-0 */
+.ldqoJX #title{font-weight:bold;margin:0;padding:0 10px 10px 10px;color:#000;} .ldqoJX #title a{color:#0687f0;} .ldqoJX #title a:hover{-webkit-text-decoration:underline;text-decoration:underline;}
+/* sc-component-id: bio__Container-a33wcy-0 */
+.gcrngV{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;background-color:inherit;color:inherit;} .gcrngV p{margin-left:10px;margin-right:10px;}
+/* sc-component-id: bio__BioNameAndPhoto-a33wcy-1 */
+.giqMKI{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;margin-bottom:10px;} .giqMKI div img{min-width:70px;border-radius:6px;} .giqMKI div:first-child{margin-right:10px;} .giqMKI div:last-child{margin:auto 0;} .giqMKI div:last-child div:first-child{font-size:20px;font-weight:bold;} .giqMKI div:last-child div:last-child{color:#999;}
+/* sc-component-id: bio__BioSocial-a33wcy-2 */
+.cfasyk{width:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;} .cfasyk a{display:block;margin-bottom:5px;cursor:pointer;color:#000;} .cfasyk span{margin-right:5px;}
+/* sc-component-id: clickPopup__Container-sc-13mfms3-0 */
+.jvkqNJ{visibility:hidden;position:absolute;z-index:1;} .jvkqNJ:after{content:"";position:absolute;}
+/* sc-component-id: sideHeader__Container-sc-7gzthc-0 */
+.faGyLR{padding:20px;font-size:15px;background-color:#3f0f3f;}
+/* sc-component-id: sideHeader__BioContainer-sc-7gzthc-1 */
+.lfKGOE{position:relative;} .lfKGOE > div{width:240px;border-radius:6px;padding:8px;top:125%;color:#000;background-color:#fff;} .lfKGOE > div:after{bottom:99%;left:25%;margin-left:-5px;border-width:7px;border-style:solid;border-color:transparent transparent #fff transparent;}
+/* sc-component-id: sideHeader__Author-sc-7gzthc-2 */
+.gIRgsE{color:#999;} .gIRgsE #circle{background-color:#49c39e;} .gIRgsE i{padding-left:5px;vertical-align:middle;} .gIRgsE span{vertical-align:middle;} .gIRgsE:hover{cursor:pointer;color:#fff;}
+/* sc-component-id: sideHeader__BlogTitle-sc-7gzthc-3 */
+.cJLnUs{display:block;color:inherit;font-weight:bold;margin-bottom:0;margin-left:10px;font-size:30px;}
+/* sc-component-id: sideContent__StyledSideContent-xwjw8o-0 */
+.dWXmJX{background-color:#3f0f3f;-ms-overflow-style:none;overflow:auto;padding:10px 0;} .dWXmJX::-webkit-scrollbar{display:none;} .dWXmJX ul{height:100%;margin:0;list-style:none;} .dWXmJX ul li{margin:0;} .dWXmJX ul li div{padding:5px;margin-left:50px;}
+/* sc-component-id: sideContent__Category-xwjw8o-1 */
+.IrVZa{display:block;color:inherit;background-color:0;text-transform:uppercase;font-weight:bold;} .IrVZa:hover{background-color:#49c39e;color:#000 !important;} .IrVZa i{margin:10px 20px 10px 30px;vertical-align:middle;} .IrVZa span{vertical-align:middle;}.grEkRK{display:block;color:#000;background-color:#49c39e;text-transform:uppercase;font-weight:bold;} .grEkRK:hover{background-color:#49c39e;color:#000 !important;} .grEkRK i{margin:10px 20px 10px 30px;vertical-align:middle;} .grEkRK span{vertical-align:middle;}
+/* sc-component-id: sideFooter__Container-u1jr2e-0 */
+.dOriUP{position:absolute;bottom:0;padding:15px;}
+/* sc-component-id: mainHeader__StyledMainHeader-j5gxon-0 */
+.ccieOg{width:100%;height:50px;position:fixed;top:0;z-index:1;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;color:#fff;background-color:#3f0f3f;} @media all and (min-width:992px){.ccieOg{display:none;}}
+/* sc-component-id: mainHeader__MenuButton-j5gxon-1 */
+.kNAowa{background-color:Transparent;background-repeat:no-repeat;border:none;cursor:pointer;overflow:hidden;outline:none;} .kNAowa i{padding:12px;color:#fff;}
+/* sc-component-id: mainContent__StyledMainContent-pjjc6u-0 */
+.gOnmNA{overflow:auto;padding:20px;} @media all and (min-width:992px){.gOnmNA{padding:50px 75px;}}
+/* sc-component-id: sc-global-1589730132 */
+*{margin:0;padding:0;} * a{-webkit-text-decoration:none;text-decoration:none;} * a:hover{-webkit-text-decoration:none;text-decoration:none;} html,body{overflow:auto;background-color:#fff;} html div[role='group'],body div[role='group']{-webkit-overflow-scrolling:touch;}
+/* sc-component-id: layout__SideBar-f082ub-0 */
+.cVpzLH{min-width:280px;height:100%;position:fixed;z-index:3;top:0;left:0;overflow-x:hidden;background-color:#3f0f3f;color:#fff !important;-webkit-transition:margin 0.5s;transition:margin 0.5s;margin-left:-280px;} @media all and (min-width:992px){.cVpzLH{min-width:280px;margin-left:0 !important;}}
+/* sc-component-id: layout__Main-f082ub-1 */
+.dHbTKQ{margin-top:50px;margin-left:0;color:#000 !important;} @media all and (min-width:992px){.dHbTKQ{margin-top:0;margin-left:280px !important;}}
+/* sc-component-id: blogPost__PostHeader-sc-1hwjgd4-0 */
+.bDQndT h1{padding:0;margin-bottom:10px;border:none;color:#000;} .bDQndT hr{margin:20px 0 40px 0;background-color:#999;} .bDQndT div{color:#999;} .bDQndT div #circle{background-color:#999;}
+/* sc-component-id: blogPost__PostContent-sc-1hwjgd4-1 */
+.bborpF{color:#000;} .bborpF a{color:#0687f0;} .bborpF a:hover{-webkit-text-decoration:underline;text-decoration:underline;} .bborpF .gatsby-highlight{margin:24px 0;border-radius:10px;} .bborpF .gatsby-highlight pre[class*="language-"]{padding:10px 15px;} .bborpF blockquote{margin-left:0;margin-right:0;padding-left:calc(0.8125rem - 1px);border-left:4px solid #999;color:#999;}
+/* sc-component-id: blogPost__PostFooter-sc-1hwjgd4-2 */
+.fGWTxT{margin-top:40px;} .fGWTxT hr{margin:20px 0;background-color:#999;}</style><link as="script" rel="preload" href="/webpack-runtime-6e520935fe5677d4d224.js"/><link as="script" rel="preload" href="/styles-55e82d6ff5158c00b714.js"/><link as="script" rel="preload" href="/framework-741ade27086b2708e961.js"/><link as="script" rel="preload" href="/app-6b47158e7ee9ca51253d.js"/><link as="script" rel="preload" href="/affb21af59dc31ea305bdd5de22c286d250977c6-c3617a8a97fd81ad4f9e.js"/><link as="script" rel="preload" href="/component---src-components-templates-blog-post-js-f9089393d6689c919436.js"/><link as="fetch" rel="preload" href="/page-data/Develop/Spring MVC, Maven 환경 설정하기/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/1643656590.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2512624605.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/58195306.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/765161310.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="layout__SideBar-f082ub-0 cVpzLH"><header class="sideHeader__Container-sc-7gzthc-0 faGyLR"><a class="sideHeader__BlogTitle-sc-7gzthc-3 cJLnUs" href="/">Develop Blog</a><div class="sideHeader__BioContainer-sc-7gzthc-1 lfKGOE"><span class="sideHeader__Author-sc-7gzthc-2 gIRgsE"><div id="circle" size="13" class="circle__StyledCircle-sc-80lot3-0 cqgvNU"></div><span>Mr.Jun</span><i class="fas fa-chevron-down"></i></span><div class="clickPopup__Container-sc-13mfms3-0 jvkqNJ"><div class="bio__Container-a33wcy-0 gcrngV"><div class="bio__BioNameAndPhoto-a33wcy-1 giqMKI"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden;display:inline-block;width:70px;height:70px"><img aria-hidden="true" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAACiElEQVQ4y3VUyWoCQRCdTxW868VLLhHEUw4GQQLqRXCJJBBxObivcYkKSQgRRRQ9uB3EBYxbYoVX0ENnNAWTnkzZr16/etXK6XQiPCL2+z1tNhtar9f0/f2t5sbjMeXzedput/y/vEcORbzsdjtqt9tksVjo9vaWSqUSAyKq1SrVajUqFArU6/X428/Pz0VQBWxQ2Ww2k9FopOvra7Lb7TQajejr64tyuZwKgqL1el0FvMRUicViZDKZGGw6ndLT0xPpdDp6e3uj+/t7+vj4oPl8TpPJhAaDAecRgr1WMgXVfT4f2Ww2isfj/LFcLpPVamU2AHx9faV0Os0niUQi1O/3/wVVNex0OtRsNvkd7BqNBgNns1k1D1BIgXU2m6mgAgyrgj+ikoi7uzvKZDL08PBAgUCAvwEExwUwAlIBXITKUKb7+flJLy8vbJFUKsUPgK6urigajTJzESCBhkEWNPYPQ8RqtWI20BMerFQqDAAN9Xq9qqfX66XD4cCNSiaT5HQ6uegZINZgMMgbEokEPzc3N8wWm5+fn8nv93OhYrHIkiB38chCQ3S62+1Sq9ViC6GbYIZmoUk4GthhWuDV5XJ55klFRkfnMBVCT0ggGIp4f38nl8vFUwM7aadGbYqoAkaPj4/8YzRFBPLH45FthELYg/xisfh7ZK0GWIXH0EXIISSBAzBVkAWWASCKyOZWtGByAXQPGwR7BFxgMBgoHA6fNeRfhgIAnRQBYNgJ9oK5YXK3282s5YlRtNePDIjZhn3ABraBZTCOYAmj42YSo/kvoDz06GQoFFKNK8dwOOTrTXu6M0DBDrZxOBzk8XjUDchp516r/8UjI2BqeBKayYVkWeR7QLz/Ajb/t3c4vVieAAAAAElFTkSuQmCC" alt="Mr.Jun" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source srcset="/static/dbd6751ba0f0723f6ce1a9a7294dc4e4/75aa5/profile-pic.png 1x,
+/static/dbd6751ba0f0723f6ce1a9a7294dc4e4/97b93/profile-pic.png 1.5x,
+/static/dbd6751ba0f0723f6ce1a9a7294dc4e4/9adda/profile-pic.png 2x" /><img loading="lazy" width="70" height="70" srcset="/static/dbd6751ba0f0723f6ce1a9a7294dc4e4/75aa5/profile-pic.png 1x,
+/static/dbd6751ba0f0723f6ce1a9a7294dc4e4/97b93/profile-pic.png 1.5x,
+/static/dbd6751ba0f0723f6ce1a9a7294dc4e4/9adda/profile-pic.png 2x" src="/static/dbd6751ba0f0723f6ce1a9a7294dc4e4/75aa5/profile-pic.png" alt="Mr.Jun" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div><div><div>Mr.Jun</div><div>ChoiJunHo</div></div></div><p>Hello World!</p><div class="bio__BioSocial-a33wcy-2 cfasyk"><a href="https://github.com/Choi-JJunho" target="_blank" rel="noopener noreferrer"><span class="fa-stack"><i class="fas fa-circle fa-stack-2x"></i><i class="fab fa-github fa-stack-1x fa-inverse fa-lg"></i></span></a><a href="mailto:junho5336@gmail.com"><div><span class="fa-stack"><i class="fas fa-circle fa-stack-2x"></i><i class="fas fa-envelope fa-stack-1x fa-inverse"></i></span></div></a></div></div></div></div></header><nav class="sideContent__StyledSideContent-xwjw8o-0 dWXmJX"><a active="0" class="sideContent__Category-xwjw8o-1 IrVZa" href="/category/Algorithm"><i class="fas fa-code-branch fa-fw"></i><span>Algorithm</span></a><a active="1" class="sideContent__Category-xwjw8o-1 grEkRK" href="/category/Develop"><i class="fas fa-pencil-alt fa-fw"></i><span>Develop</span></a><a active="0" class="sideContent__Category-xwjw8o-1 IrVZa" href="/category/Language"><i class="fas fa-file-code fa-fw"></i><span>Language</span></a><a active="0" class="sideContent__Category-xwjw8o-1 IrVZa" href="/category/Project"><i class="fas fa-project-diagram fa-fw"></i><span>Project</span></a><a active="0" class="sideContent__Category-xwjw8o-1 IrVZa" href="/category/Daily"><i class="fas fa-suitcase fa-fw"></i><span>Daily</span></a><a active="0" class="sideContent__Category-xwjw8o-1 IrVZa" href="/category/Study"><i class="fas fa-pencil-ruler fa-fw"></i><span>Study</span></a></nav><div class="sideFooter__Container-u1jr2e-0 dOriUP"></div></div><div class="layout__Main-f082ub-1 dHbTKQ"><header class="mainHeader__StyledMainHeader-j5gxon-0 ccieOg"><button class="mainHeader__MenuButton-j5gxon-1 kNAowa"><i class="fas fa-bars fa-lg"></i></button></header><section class="mainContent__StyledMainContent-pjjc6u-0 gOnmNA"><div class="blogPost__PostHeader-sc-1hwjgd4-0 bDQndT"><h1>[Develop] Spring MVC, Maven 환경 설정하기</h1><div class="postInfo__Container-par6p5-0 jYrSCX"><a href="/category/Develop">Develop</a><div id="circle" size="3" class="circle__StyledCircle-sc-80lot3-0 ftwSkq"></div><span>2020-02-11</span></div><hr/></div><div class="blogPost__PostContent-sc-1hwjgd4-1 bborpF"><div><p>본 포스팅은 <a href="https://whitepaek.tistory.com/">WHITEPAEK</a> 님의 글을 참고하여 작성했습니다.</p>
+<p>Spring 입문자로써 IntelliJ환경에 Spring환경을 설정하고 싶어 이곳 저곳 찾아보게 되었고 whitepaek님의 포스팅을 참고하여 실습을 진행할 수 있게 되었다.</p>
+<p>개인적으로 복습하면서 한번 더 정리하고자 포스팅을 진행하게 되었다.</p>
+<p>Spring은 3.2.18버전으로 설정하고자한다.</p>
+<p>OS : Window 10</p>
+<p>Database : Mysql 8.0.18</p>
+<p>Server : Tomcat 7.0.99ver</p>
+<hr>
+<p><strong>&#x3C;Maven 프로젝트 생성></strong></p>
+<p><strong>1. Create New Project - Maven 프로젝트 클릭 - JDK 버전 설정 - Create from archetype 체크 X - Next</strong></p>
+<p><img src="https://blog.kakaocdn.net/dn/bnazc8/btqBUAkbYdT/kJcxLweQzO8nHmWbQMRVfK/img.png" alt="img">[그림 1.1] Maven 프로젝트 생성</p>
+<hr>
+<p><strong>2. GroupId, ArtifactId 설정 - Finish</strong></p>
+<p><strong>GroupId :</strong> 프로젝트를 식별해주는 고유 ID (프로젝트에서 컨트롤하는 도메인 이름과 동일하게 입력한다.)</p>
+<p><strong>ArtifactId :</strong> 버전 정보를 생략한 이름 (프로젝트 이름과 동일하게 입력한다.)</p>
+<p><img src="https://blog.kakaocdn.net/dn/bjGgnM/btqBUzS5lXy/itP2dea326aEbzwvQqfGC0/img.png" alt="img">[그림 1.2] GroupId, ArtifactId 설정</p>
+<hr>
+<p><strong>3. Enable Auto-Import 클릭</strong></p>
+<p><img src="https://blog.kakaocdn.net/dn/dohHJE/btqBS5kDYh0/3dvdLrAgWHUs1czXgRe841/img.png" alt="img">[그림 1.3] Maven 프로젝트</p>
+<hr>
+<p><strong><em>\</em>&#x3C;Spring Framework 설정>**</strong></p>
+<p><strong>1. Root 디렉토리 SpringMVCMavenProject에서 마우스 우클릭 - Add Framework Supprot… 클릭</strong></p>
+<p><img src="https://blog.kakaocdn.net/dn/GUiE2/btqBVfzQKLZ/iv3dTr438hQ3tVJpbQ5m50/img.png" alt="img">[그림 2.1] 스프링 프레임워크 설정</p>
+<hr>
+<p><strong>2. Spring MVC 클릭 - Configure.. 클릭</strong></p>
+<p><img src="https://blog.kakaocdn.net/dn/bvyYpb/btqBS6jz2UR/e7hmLlndhjzMBFiSoukKQ1/img.png" alt="img">[그림 2.2.1] 버전 설정</p>
+<hr>
+<p><strong>3.1 3.2.18버전 선택 - OK</strong></p>
+<p><img src="https://blog.kakaocdn.net/dn/bFP98M/btqBRvqFQsB/QX7kIAHZAH6BGm1nDYHkhk/img.png" alt="img">[그림 2.2.2] 3.xx버전으로 설정</p>
+<p><strong>3.2 Spring탭 - Configure… - 3.2.18버전 선택 - OK</strong></p>
+<p><img src="https://blog.kakaocdn.net/dn/rUJt3/btqBPYfVzt9/7blEjxTkqA1Sns4p15VKV0/img.png" alt="img">[그림 2.2.3] 버전 설정</p>
+<hr>
+<p><strong>4. Web 디렉터리가 추가되어있는 모습을 볼 수 있다.</strong></p>
+<p><img src="https://blog.kakaocdn.net/dn/wUeOs/btqBVgetrO6/q9F7HDsmmhNkKrcbICQ051/img.png" alt="img">[그림 2.3] web 디렉터리 추가됨</p>
+<hr>
+<p><strong>&#x3C;Tomcat 설정></strong></p>
+<p><strong>1. Add Configuration… 클릭</strong></p>
+<p><img src="https://blog.kakaocdn.net/dn/bxihf8/btqBRvKVmI9/0RFNdxLtbv8F0guHJHFPaK/img.png" alt="img">[그림 3.1] AddConfiguration 클릭</p>
+<hr>
+<p><strong>2. Templates - Tomcat Server - Local 탭에서 Application server에 Tomcat을 추가해준다 - 우측 상단에 Create configuration 클릭</strong></p>
+<p><img src="https://blog.kakaocdn.net/dn/bx3pdT/btqBQn7McF9/nbKW9bIhhGFEyhLxBWs3Jk/img.png" alt="img">[그림 3.2] 톰캣 설정</p>
+<hr>
+<p><strong>3. 우측 하단 Fix 버튼 클릭</strong></p>
+<p><img src="https://blog.kakaocdn.net/dn/xZcRk/btqBUALhRNo/3Lav63KVq3iq0uafCWUEbK/img.png" alt="img">[그림 3.3] 톰캣 Fix</p>
+<hr>
+<p><strong>4. Application context 경로를 / 로 설정</strong></p>
+<p><img src="https://blog.kakaocdn.net/dn/dK9C1x/btqBS6w6WNZ/ADUVUU8Ik4fL4RukSR9Ui1/img.png" alt="img">[그림 3.4] Application context 설정</p>
+<hr>
+<p><strong>5. 톰캣 설정 완료</strong></p>
+<p><img src="https://blog.kakaocdn.net/dn/RP66s/btqBVfs9rok/EHXYCN96k7H1uqUaYJcKWK/img.png" alt="img">[그림 3.5] 톰캣 설정 완료</p>
+<hr>
+<p><strong><em>\</em>&#x3C;Lombok Plugin 설치>**</strong></p>
+<p><strong><em>\</em>1. File - Settings - PluginsLombok Plugin 설치**</strong></p>
+<p><img src="https://blog.kakaocdn.net/dn/dOiMpE/btqBVeOvRrg/6iw7K2zHoVhGWZHFy9Pxtk/img.png" alt="img">[그림 4.1.1] File - Settings</p>
+<p><strong>Install후 IDE를 껐다 켠다.</strong></p>
+<p><img src="https://blog.kakaocdn.net/dn/1uOte/btqBTL0AYns/YLuxsUKIWEAiDekHVRbaK1/img.png" alt="img">[그림 4.1.2] Plugin - Lombok</p>
+<hr>
+<p><strong>&#x3C;Database 설정></strong></p>
+<p><strong>1. Mysql DB 설정하기</strong></p>
+<p><a href="https://dev.mysql.com/downloads/connector/j/">https://dev.mysql.com/downloads/connector/j/</a></p>
+<p><strong>위 링크에서 MySQL Connector/J를 받는다.</strong></p>
+<p><img src="https://blog.kakaocdn.net/dn/ZXXxB/btqBSOcqp4J/ElWtLRCoZ7Z3XRL41jK2J1/img.png" alt="img">[그림 5.1.1] MySQL Community Downloads</p>
+<p><img src="https://blog.kakaocdn.net/dn/2EBsj/btqBUUCMgpW/8kcvDVqJkUinoPY24oGAn1/img.png" alt="img">5[그림 5.1.2] MySQL Community Downloads</p>
+<hr>
+<p><strong>2. No thanks, just start my download로 다운로드를 계속한다.</strong></p>
+<p><img src="https://blog.kakaocdn.net/dn/dqQwPe/btqBVeOuVHM/hMygPYm10DJhjD94qpIlzk/img.png" alt="img">[그림 5.2] No thanks..</p>
+<hr>
+<p><strong>3. 폴더 내의 mysql-connector-java-8.xx.jar 파일의 위치를 잘 알아두자..!</strong></p>
+<p>ex) C:\Users\Downloads\mysql-connector-java-8.0.19\</p>
+<p><img src="https://blog.kakaocdn.net/dn/7zNq1/btqBUALh4N8/puNvQEAzSNTkCGEqWZtyfK/img.png" alt="img">[그림 5.3] mysql-connector-java-8.xx 파일</p>
+<hr>
+<p><strong>4. Project Structure창으로 이동</strong></p>
+<p><img src="https://blog.kakaocdn.net/dn/H4Zor/btqBTMeahsr/u79Q7QK5wPss0p4vAJsf00/img.png" alt="img">[그림 5.4] Project Structure</p>
+<hr>
+<p><strong>5. Libraries탭 - +버튼 - Java 클릭 - mysql-connector-java-8.xx.jar 선택 - OK - OK - OK</strong></p>
+<p><img src="https://blog.kakaocdn.net/dn/c1ryKV/btqBVeHLLKd/QIKlFK7qQjBEP2Ilwy2a71/img.png" alt="img">[그림 5.5.1] mysql-connector~.jar 추가</p>
+<p><img src="https://blog.kakaocdn.net/dn/cBokZc/btqBUzlkdJG/kl89ank8LybdlxISOX0jw1/img.png" alt="img">[그림 5.5.2] mysql-connector~.jar 추가</p>
+<hr>
+<p><strong>&#x3C;pom.xml 설정></strong></p>
+<p><strong>1. pom.xml 설정</strong></p>
+<p><strong>프로젝트 설정, 라이브러리 의존성 설정, 빌드 설정을 할 수 있다.</strong></p>
+<p><img src="https://blog.kakaocdn.net/dn/m4Kff/btqBQ2oFLf9/8ZBwyAcqjKk1PTbE6y9nZ0/img.png" alt="img">[그림 6.1] pom.xml 설정</p>
+<hr>
+<p><strong>2. <project> … </project> 태그 사이에 코드를 입력한다.</strong></p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">    &lt;dependencies&gt;
+        &lt;dependency&gt;
+            &lt;groupId&gt;org.springframework&lt;/groupId&gt;
+            &lt;artifactId&gt;spring-context&lt;/artifactId&gt;
+            &lt;version&gt;${org.springframework-version}&lt;/version&gt;
+            &lt;exclusions&gt;
+                &lt;exclusion&gt;
+                    &lt;groupId&gt;commons-logging&lt;/groupId&gt;
+                    &lt;artifactId&gt;commons-logging&lt;/artifactId&gt;
+                &lt;/exclusion&gt;
+            &lt;/exclusions&gt;
+        &lt;/dependency&gt;
+        &lt;dependency&gt;
+            &lt;groupId&gt;org.springframework&lt;/groupId&gt;
+            &lt;artifactId&gt;spring-webmvc&lt;/artifactId&gt;
+            &lt;version&gt;${org.springframework-version}&lt;/version&gt;
+        &lt;/dependency&gt;
+
+        &lt;dependency&gt;
+            &lt;groupId&gt;org.aspectj&lt;/groupId&gt;
+            &lt;artifactId&gt;aspectjrt&lt;/artifactId&gt;
+            &lt;version&gt;${org.aspectj-version}&lt;/version&gt;
+        &lt;/dependency&gt;
+
+        &lt;dependency&gt;
+            &lt;groupId&gt;org.slf4j&lt;/groupId&gt;
+            &lt;artifactId&gt;slf4j-api&lt;/artifactId&gt;
+            &lt;version&gt;${org.slf4j-version}&lt;/version&gt;
+        &lt;/dependency&gt;
+        &lt;dependency&gt;
+            &lt;groupId&gt;org.slf4j&lt;/groupId&gt;
+            &lt;artifactId&gt;jcl-over-slf4j&lt;/artifactId&gt;
+            &lt;version&gt;${org.slf4j-version}&lt;/version&gt;
+            &lt;scope&gt;runtime&lt;/scope&gt;
+        &lt;/dependency&gt;
+        &lt;dependency&gt;
+            &lt;groupId&gt;org.slf4j&lt;/groupId&gt;
+            &lt;artifactId&gt;slf4j-log4j12&lt;/artifactId&gt;
+            &lt;version&gt;${org.slf4j-version}&lt;/version&gt;
+            &lt;scope&gt;runtime&lt;/scope&gt;
+        &lt;/dependency&gt;
+        &lt;dependency&gt;
+            &lt;groupId&gt;log4j&lt;/groupId&gt;
+            &lt;artifactId&gt;log4j&lt;/artifactId&gt;
+            &lt;version&gt;1.2.17&lt;/version&gt;
+            &lt;exclusions&gt;
+                &lt;exclusion&gt;
+                    &lt;groupId&gt;javax.mail&lt;/groupId&gt;
+                    &lt;artifactId&gt;mail&lt;/artifactId&gt;
+                &lt;/exclusion&gt;
+                &lt;exclusion&gt;
+                    &lt;groupId&gt;javax.jms&lt;/groupId&gt;
+                    &lt;artifactId&gt;jms&lt;/artifactId&gt;
+                &lt;/exclusion&gt;
+                &lt;exclusion&gt;
+                    &lt;groupId&gt;com.sun.jdmk&lt;/groupId&gt;
+                    &lt;artifactId&gt;jmxtools&lt;/artifactId&gt;
+                &lt;/exclusion&gt;
+                &lt;exclusion&gt;
+                    &lt;groupId&gt;com.sun.jmx&lt;/groupId&gt;
+                    &lt;artifactId&gt;jmxri&lt;/artifactId&gt;
+                &lt;/exclusion&gt;
+            &lt;/exclusions&gt;
+        &lt;/dependency&gt;
+
+        &lt;dependency&gt;
+            &lt;groupId&gt;javax.servlet&lt;/groupId&gt;
+            &lt;artifactId&gt;javax.servlet-api&lt;/artifactId&gt;
+            &lt;version&gt;3.1.0&lt;/version&gt;
+        &lt;/dependency&gt;
+        &lt;dependency&gt;
+            &lt;groupId&gt;javax.servlet.jsp&lt;/groupId&gt;
+            &lt;artifactId&gt;jsp-api&lt;/artifactId&gt;
+            &lt;version&gt;2.1&lt;/version&gt;
+            &lt;scope&gt;provided&lt;/scope&gt;
+        &lt;/dependency&gt;
+        &lt;dependency&gt;
+            &lt;groupId&gt;javax.servlet&lt;/groupId&gt;
+            &lt;artifactId&gt;jstl&lt;/artifactId&gt;
+            &lt;version&gt;1.2&lt;/version&gt;
+        &lt;/dependency&gt;
+
+        &lt;dependency&gt;
+            &lt;groupId&gt;junit&lt;/groupId&gt;
+            &lt;artifactId&gt;junit&lt;/artifactId&gt;
+            &lt;version&gt;4.12&lt;/version&gt;
+            &lt;scope&gt;test&lt;/scope&gt;
+        &lt;/dependency&gt;
+
+        &lt;dependency&gt;
+            &lt;groupId&gt;org.springframework&lt;/groupId&gt;
+            &lt;artifactId&gt;spring-test&lt;/artifactId&gt;
+            &lt;version&gt;${org.springframework-version}&lt;/version&gt;
+        &lt;/dependency&gt;
+        &lt;dependency&gt;
+            &lt;groupId&gt;org.projectlombok&lt;/groupId&gt;
+            &lt;artifactId&gt;lombok&lt;/artifactId&gt;
+            &lt;version&gt;1.18.0&lt;/version&gt;
+            &lt;scope&gt;provided&lt;/scope&gt;
+        &lt;/dependency&gt;
+    &lt;/dependencies&gt;
+
+    &lt;build&gt;
+        &lt;plugins&gt;
+            &lt;plugin&gt;
+                &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;
+                &lt;artifactId&gt;maven-compiler-plugin&lt;/artifactId&gt;
+                &lt;version&gt;2.5.1&lt;/version&gt;
+                &lt;configuration&gt;
+                    &lt;source&gt;1.8&lt;/source&gt;
+                    &lt;target&gt;1.8&lt;/target&gt;
+                    &lt;compilerArgument&gt;-Xlint:all&lt;/compilerArgument&gt;
+                    &lt;showWarnings&gt;true&lt;/showWarnings&gt;
+                    &lt;showDeprecation&gt;true&lt;/showDeprecation&gt;
+                &lt;/configuration&gt;
+            &lt;/plugin&gt;
+        &lt;/plugins&gt;
+    &lt;/build&gt;</code></pre></div>
+<p><img src="https://blog.kakaocdn.net/dn/kZ1Pe/btqBS5ruY8Y/D8d9GGh9TJUKCi5Mjywzfk/img.png" alt="img">[그림 6.2] pom.xml 라이브러리 의존성 설정</p>
+<hr>
+<p><strong>3. Project Structure - Artifacts탭 - Available Elements의 라이브러리 전부 더블클릭 - OK</strong></p>
+<p><img src="https://blog.kakaocdn.net/dn/3Byli/btqBS5EZ6Tx/rBbne9OX6NbbjffkoH1ylK/img.png" alt="img">[그림 6.3.1] 추가한 라이브러리 더블클릭</p>
+<p><img src="https://blog.kakaocdn.net/dn/bmiJ6W/btqBSPCnNKu/fn9hxaLNS9b3nsG0dotHpK/img.png" alt="img">[그림 6.3.2] 추가한 라이브러리 더블클릭</p>
+<hr>
+<p><strong>&#x3C;log4j.xml 파일 설정></strong></p>
+<p><strong>1. log4j.xml 파일 생성 및 설정</strong></p>
+<p><strong>src/main/resources/log4j.xml 파일을 만든다.</strong></p>
+<p><img src="https://blog.kakaocdn.net/dn/uh5Y5/btqBSPPVnK7/c28zg4vjQaHq2VBmIfXQk1/img.png" alt="img">[그림 7.1] 로그파일 설정</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE log4j:configuration PUBLIC &quot;-//APACHE//DTD LOG4J 1.2//EN&quot; &quot;log4j.dtd&quot;&gt;
+&lt;log4j:configuration xmlns:log4j=&quot;http://jakarta.apache.org/log4j/&quot;&gt;
+
+    &lt;appender name=&quot;console&quot; class=&quot;org.apache.log4j.ConsoleAppender&quot;&gt;
+        &lt;param name=&quot;Target&quot; value=&quot;System.out&quot; /&gt;
+        &lt;layout class=&quot;org.apache.log4j.PatternLayout&quot;&gt;
+            &lt;param name=&quot;ConversionPattern&quot; value=&quot;%-5p: %c - %m%n&quot; /&gt;
+        &lt;/layout&gt;
+    &lt;/appender&gt;
+
+    &lt;logger name=&quot;org.springframework.core&quot;&gt;
+        &lt;level value=&quot;info&quot; /&gt;
+    &lt;/logger&gt;
+
+    &lt;logger name=&quot;org.springframework.beans&quot;&gt;
+        &lt;level value=&quot;info&quot; /&gt;
+    &lt;/logger&gt;
+
+    &lt;logger name=&quot;org.springframework.context&quot;&gt;
+        &lt;level value=&quot;info&quot; /&gt;
+    &lt;/logger&gt;
+
+    &lt;logger name=&quot;org.springframework.web&quot;&gt;
+        &lt;level value=&quot;info&quot; /&gt;
+    &lt;/logger&gt;
+
+    &lt;!-- Root Logger --&gt;
+    &lt;root&gt;
+        &lt;priority value=&quot;info&quot; /&gt;
+        &lt;appender-ref ref=&quot;console&quot; /&gt;
+    &lt;/root&gt;
+
+&lt;/log4j:configuration&gt;</code></pre></div>
+<hr>
+<p><strong>&#x3C;Database 연동 테스트></strong></p>
+<p><strong>1. Mysql 데이터베이스가 정상적으로 연결되었는지 확인하는 테스트 코드를 작성한다.</strong></p>
+<p><strong>src/test/java/JDBCTest.class 를 생성한다.</strong></p>
+<p><img src="https://blog.kakaocdn.net/dn/DsZtv/btqBS6KHl6a/hyrK2yVmjXAcKIJSpyw7k1/img.png" alt="img">[그림 8.1] JDBCTest.class</p>
+<p><strong>아래 코드에서 line 22의 url 부분에서 dbname, root, password 부분은 자신의 환경에 맞게 적어주면 된다.</strong></p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">import lombok.extern.log4j.Log4j;
+import org.junit.Test;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+import static org.junit.Assert.fail;
+
+@Log4j
+public class JDBCTest {
+    static {
+        try {
+            Class.forName(&quot;com.mysql.cj.jdbc.Driver&quot;);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void connection() {
+        try(Connection conn = DriverManager.getConnection(
+                &quot;jdbc:mysql://127.0.0.1:3306/dbname?serverTimezone=UTC&quot;, &quot;root&quot;, &quot;password&quot;)) {
+            log.info(conn);
+        } catch (Exception e) {
+            fail(e.getMessage());
+        }
+    }
+}</code></pre></div>
+<hr>
+<p><strong>2. Mysql을 실행한다.</strong></p>
+<p><img src="https://blog.kakaocdn.net/dn/cJVl6t/btqBSPI8LJn/JCmc9K5zkBiygUhwCkI8Vk/img.png" alt="img">[그림 8.2] Mysql 실행하기</p>
+<hr>
+<p><strong>3. JDBCTest를 Run한다.</strong></p>
+<p><img src="https://blog.kakaocdn.net/dn/nqPkm/btqBUzS7CGF/4I0CKXSm3iQGKKbITYu2X1/img.png" alt="img">[그림 8.3] Run</p>
+<hr>
+<p><strong>4. 다음과 같이 Log가 뜨면 성공!</strong></p>
+<p><img src="https://blog.kakaocdn.net/dn/bETM9L/btqBTLlX14H/qTYvrkcYQUCSpSJVUjLF2k/img.png" alt="img">[그림 8.4] 로그 확인</p>
+<hr>
+<p><strong>&#x3C;Spring MVC - Controller 테스트></strong></p>
+<p><strong>1. web/WEB-INF/web.xml 수정</strong></p>
+<p><strong><url-pattern>*.form</url-pattern>을 \</strong><url-pattern>/</url-pattern>로 고친다.****</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;web-app xmlns=&quot;http://xmlns.jcp.org/xml/ns/javaee&quot;
+         xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+         xsi:schemaLocation=&quot;http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd&quot;
+         version=&quot;4.0&quot;&gt;
+    &lt;context-param&gt;
+        &lt;param-name&gt;contextConfigLocation&lt;/param-name&gt;
+        &lt;param-value&gt;/WEB-INF/applicationContext.xml&lt;/param-value&gt;
+    &lt;/context-param&gt;
+    &lt;listener&gt;
+        &lt;listener-class&gt;org.springframework.web.context.ContextLoaderListener&lt;/listener-class&gt;
+    &lt;/listener&gt;
+    &lt;servlet&gt;
+        &lt;servlet-name&gt;dispatcher&lt;/servlet-name&gt;
+        &lt;servlet-class&gt;org.springframework.web.servlet.DispatcherServlet&lt;/servlet-class&gt;
+        &lt;load-on-startup&gt;1&lt;/load-on-startup&gt;
+    &lt;/servlet&gt;
+    &lt;servlet-mapping&gt;
+        &lt;servlet-name&gt;dispatcher&lt;/servlet-name&gt;
+        &lt;url-pattern&gt;/&lt;/url-pattern&gt;
+    &lt;/servlet-mapping&gt;
+&lt;/web-app&gt;</code></pre></div>
+<hr>
+<p><strong>2. src/main/java/com.mrjun.controller 패키지 생성 후 HelloController.class 생성</strong></p>
+<p><img src="https://blog.kakaocdn.net/dn/cMQPUg/btqBUzZVTta/6jgeq0hwbKuBm0IlkpPupK/img.png" alt="img">[그림 9.1] HelloController</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">package com.mrjun.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+@Controller
+@RequestMapping(&quot;/home/*&quot;)
+public class HelloController {
+    @RequestMapping(method = RequestMethod.GET)
+    public @ResponseBody String homeTest() {
+        return &quot;Spring + Maven&quot;;
+    }
+}</code></pre></div>
+<hr>
+<p><strong>3. dispatcher-servlet.xml 파일에 아래 코드를 추가한다.</strong></p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">    &lt;context:component-scan base-package=&quot;com.mrjun.controller&quot; /&gt;</code></pre></div>
+<p><img src="https://blog.kakaocdn.net/dn/bUTKLk/btqBQ2oG4gA/Dg8nkvvGRRNJHrkcgggXIK/img.png" alt="img">[그림 9.2.1] dispatcher-servlet.xml</p>
+<p><strong>위 처럼 빨간색 글자가 되면 “context”를 클릭하고 ALT + ENTER로 빠른 import를 해준다.</strong></p>
+<p><img src="https://blog.kakaocdn.net/dn/brl4c5/btqBS5SxHqj/pZkPcQslgB9jEHSnzZpkik/img.png" alt="img">[그림 9.2.2] dispatcher-servlet.xml - import</p>
+<hr>
+<p><strong>4. 오른쪽 위에서 톰캣으로 실행 설정을 해준 후 프로젝트를 실행한다.</strong></p>
+<p><img src="https://blog.kakaocdn.net/dn/brihPv/btqBPXajArJ/ikmA7aMy4qzx2tf87l38dk/img.png" alt="img">[그림 9.3] set Tomcat</p>
+<hr>
+<p><strong>5. 브라우저에 localhost:8080을 입력하면 web/index.jsp파일이 출력된다.</strong></p>
+<p><img src="https://blog.kakaocdn.net/dn/cJt9NG/btqBRvD99Di/DfEAm6NTupu1h1Gl3PJ651/img.png" alt="img">[그림 9.4.1] localhost:8080</p>
+<p><strong>추가로 localhost:8080/home/test를 입력하면 다음과 같이 HelloController에 해당하는 부분이 나온다!</strong></p>
+<p><img src="https://blog.kakaocdn.net/dn/Wrzs9/btqBSN5GA65/08GCS9dkQBKQo9w55EWYpk/img.png" alt="img">[그림 9.4.2] localhost:8080/home/test</p>
+<p><strong>*Reference</strong></p>
+<p><a href="https://whitepaek.tistory.com/41">https://whitepaek.tistory.com/41</a></p>
+<p>[
+<a href="https://whitepaek.tistory.com/41">IntelliJ] Spring MVC, Maven 프로젝트 설정 방법시작하기에 앞서.. 해당 포스트에서는 스프링에 대한 이론적인 설명은 작성하지 않았습니다. 이론적인 부분은 훌륭한 참고 서적이 많기 때문에 해당 서적을 구입하여 반복적으로 학습하는 것을 추천해 드립니다…whitepaek.tistory.com</a></p></div></div><div class="blogPost__PostFooter-sc-1hwjgd4-2 fGWTxT"><div class="tagList__Container-sc-1vkxz42-0 gtpeBK"><a class="tagButton__StyledLink-sc-1r5ids2-0 fMFMmk" href="/Develop/Spring MVC, Maven 환경 설정하기/tags/Develop"><span class="tagButton__StyledButton-sc-1r5ids2-1 epTAkb">#<!-- -->Develop</span></a><a class="tagButton__StyledLink-sc-1r5ids2-0 fMFMmk" href="/Develop/Spring MVC, Maven 환경 설정하기/tags/Spring"><span class="tagButton__StyledButton-sc-1r5ids2-1 epTAkb">#<!-- -->Spring</span></a></div><hr/><div class="recentPostList__PostList-eazhq1-0 ldqoJX"><div id="title">Recent &quot;<a href="/category/Develop">Develop</a>&quot; Posts</div><div class="recentPostItem__Container-sc-19o8pgz-0 bVhJdp"><a image="/static/65d4f18c49f43a2bc316eab364e7c792/31987/develop.png" class="recentPostItem__Cover-sc-19o8pgz-1 eXOkWs" href="/Develop/org.apache.el.parser.ParseException/"><div><p class="textEllipsis__StyledText-sc-57ceip-0 gqqrKx">[Develop] org.apache.el.parser.ParseException</p><span>2020-03-28</span></div></a></div><div class="recentPostItem__Container-sc-19o8pgz-0 bVhJdp"><a image="/static/65d4f18c49f43a2bc316eab364e7c792/31987/develop.png" class="recentPostItem__Cover-sc-19o8pgz-1 eXOkWs" href="/Develop/python으로 웹 크롤링하기/"><div><p class="textEllipsis__StyledText-sc-57ceip-0 gqqrKx">[Develop] python으로 웹 크롤링하기</p><span>2020-03-22</span></div></a></div><div class="recentPostItem__Container-sc-19o8pgz-0 bVhJdp"><a image="/static/65d4f18c49f43a2bc316eab364e7c792/31987/develop.png" class="recentPostItem__Cover-sc-19o8pgz-1 eXOkWs" href="/Develop/cannot resolve web.servlet.view.InternalResourceViewResolver/"><div><p class="textEllipsis__StyledText-sc-57ceip-0 gqqrKx">[Develop] log4j 정리</p><span>2020-03-15</span></div></a></div><div class="recentPostItem__Container-sc-19o8pgz-0 bVhJdp"><a image="/static/65d4f18c49f43a2bc316eab364e7c792/31987/develop.png" class="recentPostItem__Cover-sc-19o8pgz-1 eXOkWs" href="/Develop/오류탐색기록/"><div><p class="textEllipsis__StyledText-sc-57ceip-0 gqqrKx">[Develop] 오류탐색기록</p><span>2020-03-13</span></div></a></div></div></div></section></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/Develop/Spring MVC, Maven 환경 설정하기/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-5550bf809f8122e93be5.js"],"app":["/app-6b47158e7ee9ca51253d.js"],"component---node-modules-gatsby-plugin-offline-app-shell-js":["/component---node-modules-gatsby-plugin-offline-app-shell-js-eec87b46525379af865f.js"],"component---src-components-templates-blog-post-js":["/component---src-components-templates-blog-post-js-f9089393d6689c919436.js"],"component---src-components-templates-index-4-category-js":["/component---src-components-templates-index-4-category-js-00e6c7944e90a612bcae.js"],"component---src-components-templates-index-4-tag-js":["/component---src-components-templates-index-4-tag-js-c54d731964b138adf532.js"],"component---src-components-templates-index-js":["/component---src-components-templates-index-js-ee4d5539dadb53f50b39.js"],"component---src-pages-404-js":["/component---src-pages-404-js-a88138d8d6f4c8137df1.js"]};/*]]>*/</script><script src="/polyfill-5550bf809f8122e93be5.js" nomodule=""></script><script src="/component---src-components-templates-blog-post-js-f9089393d6689c919436.js" async=""></script><script src="/affb21af59dc31ea305bdd5de22c286d250977c6-c3617a8a97fd81ad4f9e.js" async=""></script><script src="/app-6b47158e7ee9ca51253d.js" async=""></script><script src="/framework-741ade27086b2708e961.js" async=""></script><script src="/styles-55e82d6ff5158c00b714.js" async=""></script><script src="/webpack-runtime-6e520935fe5677d4d224.js" async=""></script></body></html>
